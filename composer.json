@@ -7,7 +7,7 @@
             "email": "mathieu@lesniak.fr"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
 	"suricate-php/framework": "*"
     }
