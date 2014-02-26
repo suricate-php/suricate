@@ -9,6 +9,6 @@
     ],
     "minimum-stability": "stable",
     "require": {
-	suricate-php/framwork
+	"suricate-php/framework"
     }
 }
