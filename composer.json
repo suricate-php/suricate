@@ -9,6 +9,13 @@
     ],
     "minimum-stability": "dev",
     "require": {
-	"suricate-php/framework": "*"
+        "suricate-php/framework": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers",
+            "app/models",
+            "app/views"
+        ]
     }
 }
