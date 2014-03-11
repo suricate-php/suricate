@@ -12,4 +12,5 @@ require '../vendor/autoload.php';
 // or use Suricate autoloader
 
 $app = new Suricate\Suricate('../app/config/app.ini');
+
 $app->run();
