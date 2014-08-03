@@ -8,7 +8,7 @@
  */
 
 // Use composer autoloader
-require '../vendor/autoload.php';
+require __DIR__ . '/../../vendor/autoload.php';
 //ini_set('display_errors', 'On');
 // or use Suricate autoloader
 
@@ -17,6 +17,6 @@ $app = new Suricate\Suricate(
 	'../app/config/app.ini'
 );
 
-if (is_readable('../helpers.php')) {
-	require '../helpers.php';
+if (is_readable(__DIR__ . '/../helpers.php')) {
+	require __DIR__ . '/../helpers.php';
 }
