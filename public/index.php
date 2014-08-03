@@ -6,11 +6,6 @@
  * @author   Mathieu LESNIAK <mathieu@lesniak.fr>
  */
 
-// Use composer autoloader
-require '../vendor/autoload.php';
-
-// or use Suricate autoloader
-
-$app = new Suricate\Suricate('../app/config/app.ini');
+require '../app/bootstrap/start.php';
 
 $app->run();
