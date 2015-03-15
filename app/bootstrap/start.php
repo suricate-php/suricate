@@ -13,10 +13,10 @@ require __DIR__ . '/../../vendor/autoload.php';
 // or use Suricate autoloader
 
 $app = new Suricate\Suricate(
-	require 'paths.php',
-	'../app/config/app.ini'
+    require 'paths.php',
+    __DIR__ . '/../config/app.ini'
 );
 
 if (is_readable(__DIR__ . '/../helpers.php')) {
-	require __DIR__ . '/../helpers.php';
+    require __DIR__ . '/../helpers.php';
 }
