@@ -9,13 +9,16 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "suricate-php/framework": ">=0.1"
+        "suricate-php/framework": ">=0.1",
+        "php": ">= 7.0.0"
     },
     "autoload": {
         "classmap": [
             "app/controllers",
             "app/models",
             "app/views"
+	        "app/traits",
+	        "app/interfaces"
         ]
     }
 }
