@@ -16,9 +16,9 @@
         "classmap": [
             "app/controllers",
             "app/models",
-            "app/views"
-	        "app/traits",
-	        "app/interfaces"
+            "app/views",
+	    "app/traits",
+	    "app/interfaces"
         ]
     }
 }
