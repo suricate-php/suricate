@@ -1,24 +1,25 @@
 {
-    "name": "suricate-php/suricate",
-    "description": "Suricate base app layout",
-    "authors": [
-        {
-            "name": "Mathieu LESNIAK",
-            "email": "mathieu@lesniak.fr"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {
-        "suricate-php/framework": ">=0.1",
-        "php": ">= 7.0.0"
-    },
-    "autoload": {
-        "classmap": [
-            "app/controllers",
-            "app/models",
-            "app/views",
-	    "app/traits",
-	    "app/interfaces"
-        ]
+  "name": "suricate-php/suricate",
+  "description": "Suricate base app layout",
+  "authors": [
+    {
+      "name": "Mathieu LESNIAK",
+      "email": "mathieu@lesniak.fr"
     }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "suricate-php/framework": ">=0.1",
+    "php": ">= 7.1.0"
+  },
+  "autoload": {
+    "classmap": [
+      "app/controllers",
+      "app/models",
+      "app/views",
+      "app/traits",
+      "app/interfaces",
+      "app/enums"
+    ]
+  }
 }
