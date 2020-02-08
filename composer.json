@@ -9,7 +9,7 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "suricate-php/framework": ">=0.2",
+    "suricate-php/framework": ">=0.4",
     "php": ">= 7.1.0"
   },
   "autoload": {
